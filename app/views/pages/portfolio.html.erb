@@ -1,14 +1,18 @@
 
+
 <div class="container">
 	<h1>Portfolio</h1>
 </div>
     
 <div class="banner">
-    <div class="slider">
-      <%= image_tag("../assets/website-screenshots/outbox.png") %>
-      <%= image_tag("../assets/website-screenshots/boltnetwork.png") %>
-      <%= image_tag("../assets/website-screenshots/calendar.png") %>
-    </div>
+      <ul>
+
+      <li><%= image_tag("http://s4.postimg.org/vmrvwyv25/Screen_Shot_2015_09_29_at_8_30_42_PM.png", :size => "780x540") %></li>
+      <li><%= image_tag("http://s23.postimg.org/gh2cj9n2z/Screen_Shot_2015_09_29_at_8_30_33_PM.png", :size => "780x540") %></li>
+      <li><%= image_tag("http://s4.postimg.org/vmrvwyv25/Screen_Shot_2015_09_29_at_8_30_42_PM.png", :size => "780x540") %></li>
+
+      </ul>
+      
 </div>
 
 <div class="supporting">
@@ -30,10 +34,7 @@
 =end %>
 
     </div>
+    
   </div>
-      	<script>
-		$(function() {
-    	$('.banner').unslider();
-		});
-	</script>
 </div>
+
